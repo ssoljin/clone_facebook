@@ -27,9 +27,87 @@
   font-size: 28px;
 }
 
+.Sign-in-zone-with-page-phrase{
+  margin: 40px 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .Sign-in-zone{
-  width: 400px;
-  background-color: red;
+  align-items: center;
+  width: 396px;
+  padding: 20px 16px 28px;
+  
+  border-radius: 8px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.ID {
+  margin: 6px;
+  height: 52px;
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.Password{
+  margin: 6px;
+  height: 52px;
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.Sign-in-button{
+  margin: 6px;
+  height: 52px;
+  width: 100%;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  background-color: #1877f2;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+.Forget-password{
+  margin: 16px 0 0;
+  text-decoration-line: none;
+}
+
+.Division-line{
+  height: 1px;
+  margin: 20px 16px;
+  border-bottom: 1px solid #dadde1;
+  width: 100%;
+}
+
+.Create-account-button {
+  padding: 0 16px;
+  height: 48px;
+  background-color: #42b72a;
+  color: white;
+  border: none;
+  font-size: 17px;
+  border-radius: 8px;
+}
+
+.Page-phrase{
+  margin-top: 20px;
+}
+
+.Make-page{
+  text-decoration-line: none;
+  font-weight: bold;
+  color: black;
 }
 
 .Family-site {
